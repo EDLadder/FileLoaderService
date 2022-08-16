@@ -17,6 +17,7 @@
     </PackageReference>
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="6.0.6" />
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL.Design" Version="1.1.0" />
+    <PackageReference Include="SSH.NET" Version="2020.0.2" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Models\" />
@@ -25,9 +26,16 @@
     <None Remove="Npgsql.EntityFrameworkCore.PostgreSQL" />
     <None Remove="Npgsql.EntityFrameworkCore.PostgreSQL.Design" />
     <None Remove="Data\" />
+    <None Remove="Services\" />
+    <None Remove="SSH.NET" />
+    <None Remove="Configuration\" />
+    <None Remove="files\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
     <Folder Include="Data\" />
+    <Folder Include="Services\" />
+    <Folder Include="Configuration\" />
+    <Folder Include="files\" />
   </ItemGroup>
 </Project>
